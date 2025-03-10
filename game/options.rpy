@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("atotc")
+define config.name = _("A Tale of Two Cats")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "Pre-Release"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -62,7 +62,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "audio/menu_loop.mp3"
 
 
 ## Transitions #################################################################
@@ -196,11 +196,7 @@ init python:
     build.documentation('*.txt')
 
 
-## A Google Play license key is required to perform in-app purchases. It can be
-## found in the Google Play developer console, under "Monetize" > "Monetization
-## Setup" > "Licensing".
-
-# define build.google_play_key = "..."
+## This is where a google play key used for IAPs is normally located, but I have zero plans to ever monotize this game and won't be needing it :3
 
 
 ## The username and project name associated with an itch.io project, separated
