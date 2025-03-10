@@ -3,7 +3,8 @@ label setup:
     define e = Character("Evelyn")
     define l = Character("Luna")
     define a = Character("Amile")
+    define cat = Character("Taylor") # Taylor is a cat. Taylor only says meow. Meow :3
+    define q = Character("???") # This is used for when a voice/sound is made by an unknown source.
 
-    #Minor Characters
-    define bgchar = ("[bgchar], color=#ffffff") #this is a variable character that is defined interchangebly right before it is called. this is used for when a character needs a name but only has one or two lines and is not worth defining another character for.
-    # ^^ this thing does not work
+    # Minor characters.
+    define gps = Character("GPS") #Prologue1.act1
