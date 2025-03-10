@@ -1,17 +1,9 @@
-# this file is run at the begining of the game to define characters and get the mc's name
 label setup:
-    label setup.name:
-        #prompt for name and store in $ name variable. 16 char limit.
-        $ name = renpy.input("Please input your name! (No more than 16 characters.)", length=16)
-        $ name = name.strip()
-        menu confirm_name:
-            "Your name is [name], yes?"
-
-            "Yep!":
-                jump setup.define
-
-            "Nevermind, let me change it.":
-                jump setup.name
-    label setup.define:
+    #Major Characters
+    define e = Character("Evelyn")
     define l = Character("Luna")
-    jump prologue1
+    define a = Character("Amile")
+
+    #Minor Characters
+    define bgchar = ("[bgchar], color=#ffffff") #this is a variable character that is defined interchangebly right before it is called. this is used for when a character needs a name but only has one or two lines and is not worth defining another character for.
+    # ^^ this thing does not work
