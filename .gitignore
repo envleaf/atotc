@@ -4,3 +4,10 @@ errors.txt
 /game/saves
 /game/cache
 
+game/saves/persistent
+game/saves/persistent
+game/saves/navigation.json
+game/saves/auto-2-LT1.save
+game/saves/auto-1-LT1.save
+game/cache/shaders.txt
+game/cache/bytecode-39.rpyb
